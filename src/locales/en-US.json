@@ -1,0 +1,134 @@
+{
+  "nav": {
+    "home": "Home",
+    "supporters": "Supporters",
+    "plans": "Plans",
+    "solution": "Solution",
+    "clientArea": "Client Area",
+    "language": "Language",
+    "theme": "Theme"
+  },
+  "hero": {
+    "line1": "LEAD INVESTIGATOR",
+    "line2": "LEAD INSIGHTS IN THE PALM OF YOUR HAND",
+    "lead": "Lead",
+    "company": "Company",
+    "investigate": "Investigate",
+    "examplesTitle": "Query examples",
+    "example1": "Search information about Vendrix company...",
+    "example2": "Search information about Bruno Fraga from Selitfy...",
+    "example3": "Analyze a potential customer before outreach...",
+    "description": "Vendrix Lead Investigator lets you query information about your lead or company in seconds directly from WhatsApp or desktop.",
+    "placeholder1": "Search information about Vendrix company...",
+    "placeholder2": "Search information about Bruno Fraga from Selitfy...",
+    "placeholder3": "Discover everything about a lead in seconds...",
+    "placeholder4": "Research companies and contacts quickly...",
+    "example4": "Discover lead context and history in moments..."
+  },
+  "supporters": {
+    "title": "VENDRIX SUPPORTERS",
+    "logos": [
+      "SPRINT CP",
+      "SEBRAE PR",
+      "GOOGLE CLOUD PLATFORM"
+    ]
+  },
+  "solution": {
+    "title": "Save hours researching your leads. Vendrix Lead Investigator does it for you!",
+    "subtitle": "Sellers who know who is on the other side create more connection and conversion!",
+    "benefits": [
+      "Save hours of manual research",
+      "Approach clients with much more context",
+      "Identify sales opportunities faster",
+      "Everything via WhatsApp or desktop",
+      "Sell with more confidence and professionalism"
+    ],
+    "viewPlan": "View plan",
+    "startNow": "Start now"
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "question": "What is Vendrix?",
+        "answer": "Vendrix is a company that believes AI can accelerate sales performance and business outcomes."
+      },
+      {
+        "question": "How do I access Lead Investigator?",
+        "answer": "You can access it through WhatsApp or desktop with a fast and intuitive experience."
+      },
+      {
+        "question": "Does it work for B2B and B2C?",
+        "answer": "Yes, it is designed to support sales teams across multiple go-to-market models."
+      },
+      {
+        "question": "Is there a trial period?",
+        "answer": "Yes, you can start and explore core features before scaling up."
+      },
+      {
+        "question": "Can I change plans later?",
+        "answer": "Yes, you can upgrade or downgrade as your sales operation grows."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Which lead are we investigating today?",
+    "button": "Start now"
+  },
+  "footer": {
+    "description": "Sales intelligence with context and speed.",
+    "contact": "Contact",
+    "social": "Social",
+    "copyright": "© 2026 Vendrix. All rights reserved."
+  },
+  "plans": {
+    "title": "Vendrix Plans",
+    "subtitle": "Choose the ideal plan for your sales operation.",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "save": "Save 20% on yearly",
+    "recommended": "Most popular",
+    "cta": "Start now",
+    "tiers": [
+      {
+        "name": "Basic",
+        "priceMonthly": "$19",
+        "priceYearly": "$15",
+        "features": [
+          "100 queries/month",
+          "1 user",
+          "Email support"
+        ]
+      },
+      {
+        "name": "Professional",
+        "priceMonthly": "$49",
+        "priceYearly": "$39",
+        "features": [
+          "500 queries/month",
+          "5 users",
+          "Advanced integrations"
+        ]
+      },
+      {
+        "name": "Enterprise",
+        "priceMonthly": "$119",
+        "priceYearly": "$95",
+        "features": [
+          "Unlimited queries",
+          "Unlimited users",
+          "Priority support"
+        ]
+      }
+    ]
+  },
+  "auth": {
+    "login": "Login Page",
+    "register": "Register Page"
+  },
+  "common": {
+    "soon": "Coming soon.",
+    "back": "Back",
+    "perMonth": "/month"
+  }
+}
