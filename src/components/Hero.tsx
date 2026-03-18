@@ -30,13 +30,10 @@ export function Hero() {
     <section id="inicio" className="section-spacing">
       <div className="section-container">
         <div className="mx-auto flex w-full max-w-4xl flex-col items-center text-center animate-[fadeIn_.55s_ease-out]">
-          <h1 className="text-4xl font-extrabold tracking-tight text-primary sm:text-5xl lg:text-6xl">
-            {messages.hero.line1}
+          <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
+            <span className="mx-auto block max-w-[18ch] text-primary">{messages.hero.line1}</span>
+            <span className="mx-auto mt-2 block max-w-[30ch] text-white">{messages.hero.line2}</span>
           </h1>
-
-          <h2 className="mt-4 max-w-3xl text-xl font-bold text-white sm:text-2xl">
-            {messages.hero.line2}
-          </h2>
 
           <p className="mt-5 max-w-xl text-sm text-gray-400 sm:text-base">
             {messages.hero.description}

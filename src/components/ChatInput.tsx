@@ -76,8 +76,18 @@ export function ChatInput({
   };
 
   return (
-    <div className="w-full rounded-xl border border-primary/40 bg-[#131314] p-4 shadow-2xl shadow-primary/10 backdrop-blur">
-      <div className="mb-3 flex w-fit rounded-full border border-white/15 bg-black/30 p-1">
+    <div className="relative w-full rounded-xl border border-primary/40 bg-[#131314] p-4 shadow-2xl shadow-primary/10 backdrop-blur">
+      <input
+        aria-label="lead-investigation-query"
+        value={value}
+        onFocus={stopAnimation}
+        onClick={stopAnimation}
+        onChange={(event) => handleChange(event.target.value)}
+        placeholder={typedPlaceholder}
+        className="w-full bg-transparent pb-16 pt-1 text-sm text-white outline-none placeholder:text-white/40"
+      />
+
+      <div className="absolute bottom-3 left-3 flex w-fit rounded-full border border-white/15 bg-black/30 p-1">
         <button
           type="button"
           className={`rounded-full px-4 py-1.5 text-xs font-semibold transition ${
@@ -98,26 +108,14 @@ export function ChatInput({
         </button>
       </div>
 
-      <div className="relative">
-        <input
-          aria-label="lead-investigation-query"
-          value={value}
-          onFocus={stopAnimation}
-          onClick={stopAnimation}
-          onChange={(event) => handleChange(event.target.value)}
-          placeholder={typedPlaceholder}
-          className="w-full rounded-xl border border-white/15 bg-black/35 py-4 pl-4 pr-4 text-sm text-white outline-none transition focus:border-primary sm:pr-36"
-        />
-
-        <button
-          type="button"
-          onClick={() => navigate('/registro')}
-          className="mt-3 inline-flex w-full items-center justify-center gap-2 rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-white transition hover:brightness-110 sm:absolute sm:right-2 sm:top-1/2 sm:mt-0 sm:w-auto sm:-translate-y-1/2"
-        >
-          <span aria-hidden>🔍</span>
-          {investigateLabel}
-        </button>
-      </div>
+      <button
+        type="button"
+        onClick={() => navigate('/registro')}
+        className="absolute bottom-3 right-3 inline-flex items-center justify-center gap-2 rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-white transition hover:brightness-110"
+      >
+        <span aria-hidden>🔍</span>
+        {investigateLabel}
+      </button>
     </div>
   );
 }
