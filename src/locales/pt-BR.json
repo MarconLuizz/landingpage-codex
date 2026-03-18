@@ -1,0 +1,134 @@
+{
+  "nav": {
+    "home": "Início",
+    "supporters": "Apoiadores",
+    "plans": "Planos",
+    "solution": "Solução",
+    "clientArea": "Área do cliente",
+    "language": "Idioma",
+    "theme": "Tema"
+  },
+  "hero": {
+    "line1": "INVESTIGADOR DE LEADS",
+    "line2": "INFORMAÇÕES SOBRE SEUS LEADS NA PALMA DA SUA MÃO",
+    "lead": "Lead",
+    "company": "Empresa",
+    "investigate": "Investigar",
+    "examplesTitle": "Exemplos de consultas",
+    "example1": "Busque informações sobre a empresa Vendrix...",
+    "example2": "Busque informações sobre o Bruno Fraga da Selitfy...",
+    "example3": "Analise um possível cliente antes de abordar...",
+    "description": "O investigador de leads da Vendrix permite você consultar informações sobre seu lead ou empresa em poucos segundos diretamente em seu Whatsapp ou computador.",
+    "placeholder1": "Busque informações sobre a empresa Vendrix...",
+    "placeholder2": "Busque informações sobre o Bruno Fraga da Selitfy...",
+    "placeholder3": "Descubra tudo sobre um lead em segundos...",
+    "placeholder4": "Pesquise empresas e contatos rapidamente...",
+    "example4": "Descubra histórico e contexto de um lead em instantes..."
+  },
+  "supporters": {
+    "title": "APOIADORES DA VENDRIX",
+    "logos": [
+      "SPRINT CP",
+      "SEBRAE PR",
+      "GOOGLE CLOUD PLATFORM"
+    ]
+  },
+  "solution": {
+    "title": "Economize horas de pesquisa sobre seus leads. O Investigador de leads da Vendrix faz isso por você!",
+    "subtitle": "Vendedor que conhece quem está do outro lado, gera mais conexão e conversão!",
+    "benefits": [
+      "Economize horas de pesquisa manual",
+      "Aborde o cliente com muito mais contexto",
+      "Identifique oportunidades de venda mais rápido",
+      "Tudo direto no WhatsApp ou no computador",
+      "Venda com mais confiança e profissionalismo"
+    ],
+    "viewPlan": "Visualizar plano",
+    "startNow": "Começar agora"
+  },
+  "faq": {
+    "title": "Perguntas frequentes",
+    "items": [
+      {
+        "question": "O que é a Vendrix?",
+        "answer": "A Vendrix é uma empresa que aposta em um mundo onde a inteligência artificial vem para impulsionar os resultados dos vendedores."
+      },
+      {
+        "question": "Como acesso o Investigador de Leads?",
+        "answer": "Você pode acessar pelo WhatsApp ou computador com uma experiência simples e rápida."
+      },
+      {
+        "question": "A plataforma funciona para B2B e B2C?",
+        "answer": "Sim, o Investigador foi pensado para apoiar equipes comerciais em diferentes modelos de venda."
+      },
+      {
+        "question": "Existe período de testes?",
+        "answer": "Sim, você pode começar e explorar funcionalidades antes de escalar para planos maiores."
+      },
+      {
+        "question": "Posso trocar de plano depois?",
+        "answer": "Sim, você pode alterar o plano conforme a evolução do seu time e da sua operação."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Qual lead vamos investigar hoje?",
+    "button": "Começar agora"
+  },
+  "footer": {
+    "description": "Inteligência para vendas com contexto e velocidade.",
+    "contact": "Contato",
+    "social": "Redes sociais",
+    "copyright": "© 2026 Vendrix. Todos os direitos reservados."
+  },
+  "plans": {
+    "title": "Planos Vendrix",
+    "subtitle": "Escolha o plano ideal para sua operação comercial.",
+    "monthly": "Mensal",
+    "yearly": "Anual",
+    "save": "Economize 20% no anual",
+    "recommended": "Mais escolhido",
+    "cta": "Começar agora",
+    "tiers": [
+      {
+        "name": "Básico",
+        "priceMonthly": "R$ 99",
+        "priceYearly": "R$ 79",
+        "features": [
+          "100 consultas/mês",
+          "1 usuário",
+          "Suporte por e-mail"
+        ]
+      },
+      {
+        "name": "Profissional",
+        "priceMonthly": "R$ 249",
+        "priceYearly": "R$ 199",
+        "features": [
+          "500 consultas/mês",
+          "5 usuários",
+          "Integrações avançadas"
+        ]
+      },
+      {
+        "name": "Empresarial",
+        "priceMonthly": "R$ 599",
+        "priceYearly": "R$ 479",
+        "features": [
+          "Consultas ilimitadas",
+          "Usuários ilimitados",
+          "Suporte prioritário"
+        ]
+      }
+    ]
+  },
+  "auth": {
+    "login": "Página de Login",
+    "register": "Página de Registro"
+  },
+  "common": {
+    "soon": "Em breve.",
+    "back": "Voltar",
+    "perMonth": "/mês"
+  }
+}
