@@ -11,15 +11,19 @@
   "hero": {
     "line1": "INVESTIGADOR DE LEADS",
     "line2": "INFORMAÇÕES SOBRE SEUS LEADS NA PALMA DA SUA MÃO",
-    "subtitle": "O investigador de leads da Vendrix permite você consultar informações sobre seu lead ou empresa em poucos segundos diretamente em seu Whatsapp ou computador.",
-    "placeholder": "Busque informações sobre a empresa Vendrix...",
     "lead": "Lead",
     "company": "Empresa",
     "investigate": "Investigar",
     "examplesTitle": "Exemplos de consultas",
     "example1": "Busque informações sobre a empresa Vendrix...",
     "example2": "Busque informações sobre o Bruno Fraga da Selitfy...",
-    "example3": "Busque informações sobre a startup Nexa Digital..."
+    "example3": "Analise um possível cliente antes de abordar...",
+    "description": "O investigador de leads da Vendrix permite você consultar informações sobre seu lead ou empresa em poucos segundos diretamente em seu Whatsapp ou computador.",
+    "placeholder1": "Busque informações sobre a empresa Vendrix...",
+    "placeholder2": "Busque informações sobre o Bruno Fraga da Selitfy...",
+    "placeholder3": "Descubra tudo sobre um lead em segundos...",
+    "placeholder4": "Pesquise empresas e contatos rapidamente...",
+    "example4": "Descubra histórico e contexto de um lead em instantes..."
   },
   "supporters": {
     "title": "APOIADORES DA VENDRIX",

@@ -11,15 +11,19 @@
   "hero": {
     "line1": "LEAD INVESTIGATOR",
     "line2": "LEAD INSIGHTS IN THE PALM OF YOUR HAND",
-    "subtitle": "Vendrix Lead Investigator lets you query information about your lead or company in seconds directly from WhatsApp or desktop.",
-    "placeholder": "Search information about Vendrix company...",
     "lead": "Lead",
     "company": "Company",
     "investigate": "Investigate",
     "examplesTitle": "Query examples",
     "example1": "Search information about Vendrix company...",
     "example2": "Search information about Bruno Fraga from Selitfy...",
-    "example3": "Search information about Nexa Digital startup..."
+    "example3": "Analyze a potential customer before outreach...",
+    "description": "Vendrix Lead Investigator lets you query information about your lead or company in seconds directly from WhatsApp or desktop.",
+    "placeholder1": "Search information about Vendrix company...",
+    "placeholder2": "Search information about Bruno Fraga from Selitfy...",
+    "placeholder3": "Discover everything about a lead in seconds...",
+    "placeholder4": "Research companies and contacts quickly...",
+    "example4": "Discover lead context and history in moments..."
   },
   "supporters": {
     "title": "VENDRIX SUPPORTERS",
