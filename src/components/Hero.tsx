@@ -30,12 +30,13 @@ export function Hero() {
     <section id="inicio" className="section-spacing">
       <div className="section-container">
         <div className="mx-auto flex w-full max-w-4xl flex-col items-center text-center animate-[fadeIn_.55s_ease-out]">
-          <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
-            <span className="mx-auto block max-w-[18ch] text-primary">{messages.hero.line1}</span>
-            <span className="mx-auto mt-2 block max-w-[30ch] text-white">{messages.hero.line2}</span>
+          
+          <h1 className="text-4xl tracking-tight sm:text-5xl lg:text-5xl">
+            <span className="mx-auto block max-w-[20ch] text-primary">{messages.hero.line1}</span>
+            <span className="mx-auto mt-2 block max-w-[30ch]">{messages.hero.line2}</span>
           </h1>
 
-          <p className="mt-5 max-w-xl text-sm text-gray-400 sm:text-base">
+          <p className="mt-5 max-w-xl text-sm text-gray-500 dark:text-gray-400 sm:text-base">
             {messages.hero.description}
           </p>
 
@@ -53,7 +54,8 @@ export function Hero() {
           </div>
 
           <div className="mt-6 w-full max-w-3xl">
-            <p className="mb-3 text-center text-xs font-semibold uppercase tracking-widest text-white/60">
+            
+            <p className="mb-3 text-center text-xs font-semibold uppercase tracking-widest text-gray-500 dark:text-white/60">
               {messages.hero.examplesTitle}
             </p>
 
@@ -63,12 +65,13 @@ export function Hero() {
                   key={example}
                   type="button"
                   onClick={() => applyExample(example)}
-                  className="rounded-lg border border-primary/60 bg-[#131314] px-4 py-3 text-left text-xs text-white/80 transition duration-300 hover:-translate-y-0.5 hover:border-primary hover:text-white"
+                  className="rounded-lg border border-primary/40 bg-gray-100 dark:bg-[#131314] px-4 py-3 text-left text-xs text-black/70 dark:text-white/80 transition duration-300 hover:-translate-y-0.5 hover:border-primary hover:text-black dark:hover:text-white"
                 >
                   {example}
                 </button>
               ))}
             </div>
+
           </div>
         </div>
       </div>

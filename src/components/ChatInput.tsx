@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { FiSearch } from 'react-icons/fi';
 
 interface ChatInputProps {
   placeholders: string[];
@@ -76,7 +77,8 @@ export function ChatInput({
   };
 
   return (
-    <div className="relative w-full rounded-xl border border-primary/40 bg-[#131314] p-4 shadow-2xl shadow-primary/10 backdrop-blur">
+    <div className="relative w-full rounded-xl bg-gray-100 dark:bg-[#131314] p-4 shadow-2xl shadow-primary/10 backdrop-blur">
+      
       <input
         aria-label="lead-investigation-query"
         value={value}
@@ -84,28 +86,35 @@ export function ChatInput({
         onClick={stopAnimation}
         onChange={(event) => handleChange(event.target.value)}
         placeholder={typedPlaceholder}
-        className="w-full bg-transparent pb-16 pt-1 text-sm text-white outline-none placeholder:text-white/40"
+        className="w-full bg-transparent pb-24 pt-1 text-sm text-black dark:text-white outline-none placeholder:text-black/40 dark:placeholder:text-white/40"
       />
 
-      <div className="absolute bottom-3 left-3 flex w-fit rounded-full border border-white/15 bg-black/30 p-1">
+      <div className="absolute bottom-3 left-3 flex w-fit rounded-full border border-black/10 dark:border-white/15 bg-white/70 dark:bg-black/30 p-1 backdrop-blur">
+        
         <button
           type="button"
           className={`rounded-full px-4 py-1.5 text-xs font-semibold transition ${
-            mode === 'lead' ? 'bg-primary text-white' : 'text-white/70 hover:text-white'
+            mode === 'lead'
+              ? 'bg-primary text-white'
+              : 'text-black/60 dark:text-white/70 hover:text-black dark:hover:text-white'
           }`}
           onClick={() => setMode('lead')}
         >
           {leadLabel}
         </button>
+
         <button
           type="button"
           className={`rounded-full px-4 py-1.5 text-xs font-semibold transition ${
-            mode === 'company' ? 'bg-primary text-white' : 'text-white/70 hover:text-white'
+            mode === 'company'
+              ? 'bg-primary text-white'
+              : 'text-black/60 dark:text-white/70 hover:text-black dark:hover:text-white'
           }`}
           onClick={() => setMode('company')}
         >
           {companyLabel}
         </button>
+
       </div>
 
       <button
@@ -113,9 +122,10 @@ export function ChatInput({
         onClick={() => navigate('/registro')}
         className="absolute bottom-3 right-3 inline-flex items-center justify-center gap-2 rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-white transition hover:brightness-110"
       >
-        <span aria-hidden>🔍</span>
+        <FiSearch className="text-lg" />
         {investigateLabel}
       </button>
+
     </div>
   );
 }

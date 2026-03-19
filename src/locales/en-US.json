@@ -10,7 +10,7 @@
   },
   "hero": {
     "line1": "LEAD INVESTIGATOR",
-    "line2": "LEAD INSIGHTS IN THE PALM OF YOUR HAND",
+    "line2": "Lead insights in the palm of your hand",
     "lead": "Lead",
     "company": "Company",
     "investigate": "Investigate",
@@ -76,7 +76,7 @@
     "button": "Start now"
   },
   "footer": {
-    "description": "Sales intelligence with context and speed.",
+    "description": "The smart matrix that enhances sales.",
     "contact": "Contact",
     "social": "Social",
     "copyright": "© 2026 Vendrix. All rights reserved."
