@@ -1,4 +1,4 @@
-import { createBrowserRouter } from 'react-router-dom';
+import { createBrowserRouter, Navigate } from 'react-router-dom';
 import { Home } from '../pages/Home';
 import { Plans } from '../pages/Plans';
 import { AuthPlaceholder } from '../pages/AuthPlaceholder';
@@ -16,7 +16,9 @@ function RegisterPage() {
 
 export const router = createBrowserRouter([
   { path: '/', element: <Home /> },
+  { path: '/home', element: <Navigate to="/" replace /> },
   { path: '/planos', element: <Plans /> },
   { path: '/login', element: <LoginPage /> },
   { path: '/registro', element: <RegisterPage /> },
+  { path: '*', element: <Navigate to="/" replace /> },
 ]);

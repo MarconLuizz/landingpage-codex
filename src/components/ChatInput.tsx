@@ -85,6 +85,12 @@ export function ChatInput({
         onFocus={stopAnimation}
         onClick={stopAnimation}
         onChange={(event) => handleChange(event.target.value)}
+        onKeyDown={(event) => {
+          if (event.key === 'Enter') {
+            event.preventDefault();
+            navigate('/registro');
+          }
+        }}
         placeholder={typedPlaceholder}
         className="w-full bg-transparent pb-24 pt-1 text-sm text-black dark:text-white outline-none placeholder:text-black/40 dark:placeholder:text-white/40"
       />

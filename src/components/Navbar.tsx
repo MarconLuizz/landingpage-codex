@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext';
 import { useTheme } from '../context/ThemeContext';
 import logo from '../assets/logo/logo.png';
@@ -8,6 +8,21 @@ import { GB, BR } from 'country-flag-icons/react/3x2';
 export function Navbar() {
   const { messages, locale, toggleLocale } = useLanguage();
   const { theme, toggleTheme } = useTheme();
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  const scrollToId = (id: string) => {
+    if (location.pathname !== '/') {
+      navigate(`/#${id}`);
+      return;
+    }
+
+    const target = document.getElementById(id);
+    if (target) {
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      window.history.replaceState(null, '', `#${id}`);
+    }
+  };
 
   return (
     <header className="sticky top-0 z-50 border-b border-white/10 bg-white/90 backdrop-blur dark:bg-black/90">
@@ -20,10 +35,16 @@ export function Navbar() {
 
         {/* Navegação */}
         <nav className="hidden items-center gap-6 md:flex">
-          <a href="#inicio" className="transition hover:text-primary">{messages.nav.home}</a>
-          <a href="#apoiadores" className="transition hover:text-primary">{messages.nav.supporters}</a>
+          <button type="button" onClick={() => scrollToId('inicio')} className="transition hover:text-primary">
+            {messages.nav.home}
+          </button>
+          <button type="button" onClick={() => scrollToId('apoiadores')} className="transition hover:text-primary">
+            {messages.nav.supporters}
+          </button>
           <Link to="/planos" className="transition hover:text-primary">{messages.nav.plans}</Link>
-          <a href="#solucao" className="transition hover:text-primary">{messages.nav.solution}</a>
+          <button type="button" onClick={() => scrollToId('solucao')} className="transition hover:text-primary">
+            {messages.nav.solution}
+          </button>
         </nav>
 
         {/* Ações */}
